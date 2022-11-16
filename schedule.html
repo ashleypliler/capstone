@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>schedule</title>
+    <link rel="stylesheet" href="./schedule.css">
+</head>
+<body>
+
+ 
+
+
+    <div class="scroll">
+        <button onclick="myFunction()" class="dropbtn">MENU</button>
+        <div id="myDropdown" class="dropdown-content">
+          <a href="./index.html">HOME</a>
+          <a href="./portfolio.html">PORTFOLIO</a>
+          <a href="./meet.html">MEET ASHLEY</a>
+        </div>
+        <div class="oval"></div>
+    </div>
+
+
+
+    
+    <label id="name-id">FIRST NAME:</label>
+    <input id="name" type="text" placeholder="ENTER YOUR FIRST NAME">
+    
+    <label id="name-last">LAST NAME:</label>
+    <input id="last-name" type="text" placeholder="ENTER YOUR LAST NAME">
+    
+    <label id="email-id">EMAIL:</label>
+    <input id="email" type="text" placeholder="ENTER YOUR EMAIL">
+
+    <laber id="phonenumber">PHONE NUMBER:</laber>
+    <input id="number" type="text" placeholder="ENTER YOUR PHONE NUMBER">
+
+    <label id="session-id">SESSION TYPE:</label>
+
+    <select id="session">
+        <option value="" disabled selected>CHOOSE SESSION TYPE</option>
+        <option value="portrait">PORTRAIT</option>
+        <option value="couple">COUPLE</option>
+        <option value="family">FAMILY</option>
+        <option value="products">PRODUCTS</option>
+    </select>
+    
+    <label id="date-id">DATE:</label>
+    <input id="date" type="date" placeholder="ENTER YOUR EMAIL">
+
+    <button id="submit">SUBMIT</button>
+    <script src="./schedule.js"></script>
+    
+</body>
+</html>

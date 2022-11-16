@@ -1,0 +1,163 @@
+@font-face {
+    font-family:Restora;
+    src: url(./RestoraExtraLight.otf)
+}
+
+
+
+body {
+    margin: 0%;
+    background-color: rgb(251, 243, 233);
+}
+
+
+div.scroll {
+    background-color: rgb(123, 119, 116);
+      width: 50vw;
+      height: 100vh;
+      overflow:auto;
+      text-align: center;
+      padding: 20px;
+  }
+
+  #lennon {
+    display: flex;
+    position: absolute;
+    left: 0px;
+    top: 100px;
+    width: 200px;
+    height: 300px;
+  }
+
+  #lexi {
+    display: flex;
+    position: absolute;
+    left: 175px;
+    top: 350px;
+    height: 250px;
+    width: 150px;
+    border-radius: 10%;
+  }
+
+  #plant {
+    display: flex;
+    position: absolute;
+    left: 175px;
+    top: 550px;
+    height: 150px;
+    width: 250px;
+    border-radius: 10%;
+  }
+
+  ul {
+    display: flex;
+    position: absolute;
+    top: 800px;
+  }
+
+#logo {
+    display: flex;
+    position: absolute;
+    left: 405px;
+    top: 5px;
+    width: 300px;
+    height: 300px;
+    padding: 0%;
+    margin: 0%;
+  }
+  
+.headerButton{
+    height: 50px;
+    width: 300px;
+    border: none;
+    background-color: transparent;
+    color: black;
+    font-size: 30px;
+    font-family: Restora;
+    margin: 0%;
+  }
+
+  a {
+    color: black;
+   text-decoration: none;
+  }
+    
+ .navButtons {
+  color: black;
+  margin: 0%;
+ } 
+
+ .header {
+  color: black;
+  margin: 0%;
+ }
+
+#meet {
+    display: flex;
+    position: absolute;
+    right: 75px;
+    top: 250px;
+    color: black;
+    margin: 0%;
+  }
+
+  #meet:hover {
+    font-weight:bold;
+    top: 245px;
+    color: black;
+    margin: 0%;
+  }
+
+#portfolio {
+    display: flex;
+    position: absolute;
+    right: 75px;
+    top: 350px;
+    margin: 0%;
+}
+
+#portfolio:hover {
+    font-weight:bold;
+    top: 345px;
+    margin: 0%;
+}
+
+#schedule {
+    display: flex;
+    position: absolute;
+    right: 75px;
+    top: 450px;
+    margin: 0%;
+}
+
+#schedule:hover {
+    font-weight:bold;
+    top: 445px;
+    margin: 0%;
+}
+
+
+#dot {
+    height: 100px;
+    width: 100px;
+    background-color: transparent;
+    border-radius: 50%;
+    display: flex;
+    position: absolute;
+    right: 110px;
+    top: 190px;
+    border: 1px solid black;
+    margin: 0%;
+  }
+
+
+  .rectangle {
+    display: flex;
+    position: absolute;
+    top: 550px;
+    right: 353px;
+    width: 200px;
+    background-color: transparent;
+    border: 1px solid rgb(90, 90, 90);
+    margin: 0%;
+  }
