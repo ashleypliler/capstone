@@ -1,0 +1,106 @@
+@font-face {
+    font-family:Restora;
+    src: url(./RestoraExtraLight.otf)
+}
+
+body {
+    margin: 0%;
+    background-color: rgb(251, 243, 233);
+}
+
+.headerButton{
+    height: 50px;
+    width: 300px;
+    border: none;
+    background-color: transparent;
+    color: black;
+    font-size: 20px;
+    font-family: Restora;
+    margin: 0%;
+    display: flex;
+    position: fixed;
+  }
+
+  a {
+    color: black;
+   text-decoration: none;
+   display: flex;
+    position: fixed;
+  }
+    
+ .navButtons {
+  color: black;
+  margin: 0%;
+  display: flex;
+    position: fixed;
+ } 
+
+ .header {
+  color: black;
+  margin: 0%;
+  display: flex;
+    position: fixed;
+ }
+
+#home {
+    display: flex;
+    position: fixed;
+    left: 75px;
+    top: 50px;
+    color: black;
+    margin: 0%;
+  }
+
+  #home:hover {
+    font-weight:bold;
+    top: 45px;
+    color: black;
+    margin: 0%;
+  }
+
+#portfolio {
+    display: flex;
+    position: fixed;
+    left: 200px;
+    top: 50px;
+    margin: 0%;
+}
+
+#portfolio:hover {
+    font-weight:bold;
+    top: 45px;
+    margin: 0%;
+}
+
+#schedule {
+    display: flex;
+    position: fixed;
+    left: 375px;
+    top: 50px;
+    margin: 0%;
+}
+
+#schedule:hover {
+    font-weight:bold;
+    top: 45px;
+    margin: 0%;
+}
+
+#me {
+    display: flex;
+    position: absolute;
+    top: 200px;
+    left: 100px;
+    height: 450px;
+    width: 375px;
+}
+
+#line {
+    display: flex;
+    position: absolute;
+    top: 75px;
+    left: 5px;
+    width: 500px;
+    height: 1px;
+    border: 1px black;
+}

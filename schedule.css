@@ -5,7 +5,7 @@
 
 body {
     margin: 0%;
-    background-color: rgb(251, 243, 233);
+    background-color: rgb(253, 247, 241);
 }
 
 div.scroll {
@@ -19,12 +19,6 @@ div.scroll {
     margin: 0%;
   }
 
-  .oval {
-    height: 200px;
-    width: 100px;
-    background-color:transparent;
-    border: 2px solid  rgb(251, 243, 233);;
-    border-radius: 50%;}
 
     #email-id {
         display: flex;
@@ -138,13 +132,54 @@ div.scroll {
     #submit {
         display: flex;
         position: absolute;
+        height: 100px;
+        width: 200px;
         right: 150px;
         top: 545px;
         font-size: 17px;
         font-family: Restora;
+  padding: 0.875em 2em;
+  background: linear-gradient(90deg, #3f51b5, transparent) #2196f3;
+  color: #fff;
+  text-decoration: none;
+  transition: background-color 1s;
+  place-content: center;
+    }
+
+    #submit:hover, submit:focus {
+        /* background-color: gray; */
+        background-color: #e91e63;
+        color: #fff;
     }
 
 
+
+    #header {
+        display: flex;
+        position: absolute;
+        right: 150px;
+        top: 40px;
+        font-size: 40px;
+        font-family:Restora;
+    }
+
+    #time-id {
+        display: flex;
+        position: absolute;
+        right: 430px;
+        bottom: 160px;
+        font-size: 20px;
+        font-family: Restora;
+    }
+
+    #time {
+        display: flex;
+        position: absolute;
+        right: 375px;
+        bottom: 125px;
+        font-size: 15px;
+        font-family: Restora;
+    }
 
 
 

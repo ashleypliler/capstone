@@ -7,18 +7,19 @@
 
 body {
     margin: 0%;
-    background-color: rgb(251, 243, 233);
+    background-color: rgb(123, 119, 116);
 }
 
+.rightside {
+  background-color: rgb(253, 247, 241);
+  width: 50vw;
+  height: 100vh;
+  display: flex;
+  position: fixed;
+  right: 0%;
+  z-index: -2;
+}
 
-div.scroll {
-    background-color: rgb(123, 119, 116);
-      width: 50vw;
-      height: 100vh;
-      overflow:auto;
-      text-align: center;
-      padding: 20px;
-  }
 
   #lennon {
     display: flex;
@@ -33,21 +34,31 @@ div.scroll {
     display: flex;
     position: absolute;
     left: 175px;
-    top: 350px;
-    height: 250px;
-    width: 150px;
-    border-radius: 10%;
+    top: 600px;
+    height: 275px;
+    width: 185px;
   }
 
   #plant {
     display: flex;
     position: absolute;
     left: 175px;
-    top: 550px;
+    top: 350px;
     height: 150px;
     width: 250px;
     border-radius: 10%;
   }
+  
+
+  #tiff {
+      display: flex;
+      position: absolute;
+      left: 350px;
+      top: 1100px;
+      height: 250px;
+      width: 170px;
+  }
+
 
   ul {
     display: flex;
@@ -57,8 +68,8 @@ div.scroll {
 
 #logo {
     display: flex;
-    position: absolute;
-    left: 405px;
+    position: fixed;
+    left: 38vw;
     top: 5px;
     width: 300px;
     height: 300px;
@@ -75,26 +86,34 @@ div.scroll {
     font-size: 30px;
     font-family: Restora;
     margin: 0%;
+    display: flex;
+    position: fixed;
   }
 
   a {
     color: black;
    text-decoration: none;
+   display: flex;
+    position: fixed;
   }
     
  .navButtons {
   color: black;
   margin: 0%;
+  display: flex;
+    position: fixed;
  } 
 
  .header {
   color: black;
   margin: 0%;
+  display: flex;
+    position: fixed;
  }
 
 #meet {
     display: flex;
-    position: absolute;
+    position: fixed;
     right: 75px;
     top: 250px;
     color: black;
@@ -110,7 +129,7 @@ div.scroll {
 
 #portfolio {
     display: flex;
-    position: absolute;
+    position: fixed;
     right: 75px;
     top: 350px;
     margin: 0%;
@@ -124,7 +143,7 @@ div.scroll {
 
 #schedule {
     display: flex;
-    position: absolute;
+    position: fixed;
     right: 75px;
     top: 450px;
     margin: 0%;
@@ -136,28 +155,66 @@ div.scroll {
     margin: 0%;
 }
 
-
 #dot {
-    height: 100px;
-    width: 100px;
-    background-color: transparent;
-    border-radius: 50%;
-    display: flex;
-    position: absolute;
-    right: 110px;
-    top: 190px;
-    border: 1px solid black;
-    margin: 0%;
-  }
+  height: 100px;
+  width: 100px;
+  background-color: transparent;
+  border-radius: 50%;
+  display: flex;
+  position: fixed;
+  right: 110px;
+  top: 190px;
+  border: 1px solid black;
+  margin: 0%;
+}
+
+#circle {
+  height: 100px;
+  width: 100px;
+  background-color: transparent;
+  border-radius: 50%;
+  display: flex;
+  position: absolute;
+  left: 100px;
+  top: 895px;
+  border: 1px solid black;
+  margin: 0%;
+  z-index: 1;
+}
 
 
-  .rectangle {
-    display: flex;
-    position: absolute;
-    top: 550px;
-    right: 353px;
-    width: 200px;
-    background-color: transparent;
-    border: 1px solid rgb(90, 90, 90);
-    margin: 0%;
-  }
+.rectangle {
+  display: flex;
+  position: fixed;
+  top: 550px;
+  right: 353px;
+  width: 200px;
+  background-color: transparent;
+  border: 1px solid rgb(90, 90, 90);
+  margin: 0%;
+}
+
+.text {
+  display: flex;
+  position: absolute;
+  left: 110px;
+  top: 400px;
+  width: 50pxpx;
+  color:rgb(251, 243, 233);
+  z-index: 1;
+  font-size: 10px;
+  font-family:Restora ;
+}
+
+.vertical-text {
+  transform: rotate(-90deg);
+  display: flex;
+  position: absolute;
+  left: 210px;
+  top: 550px;
+  width: 50pxpx;
+  color:rgb(251, 243, 233);
+  z-index: 1;
+  font-size: 10px;
+  font-family:Restora ;
+}
