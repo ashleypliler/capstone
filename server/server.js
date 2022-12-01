@@ -7,6 +7,7 @@ const app = express();
 app.use(cors());
 app.use(express.json())
 app.use(nodeMailer());
+app.use(express.static('./'))
 
 const {getCompliment} = require('./controller');
 
