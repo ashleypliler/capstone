@@ -16,7 +16,7 @@ body {
   height: 100vh;
   display: flex;
   position: fixed;
-  right: 0%;
+  right: 0px;
   z-index: -2;
 }
 
@@ -30,6 +30,16 @@ body {
     height: 300px;
   }
 
+  .picture-border1 {
+    background-color: transparent;
+    border: 1px solid black;
+    display: flex;
+    position: absolute;
+    left: 0px;
+    top: 90px;
+    width: 210px;
+    height: 320px;
+  }
   #lexi {
     display: flex;
     position: absolute;
@@ -49,15 +59,97 @@ body {
     border-radius: 10%;
   }
   
-
+  
   #tiff {
-      display: flex;
-      position: absolute;
-      left: 350px;
-      top: 1100px;
-      height: 250px;
-      width: 170px;
+    display: flex;
+    position: absolute;
+    left: 350px;
+    top: 985px;
+    height: 250px;
+    width: 170px;
   }
+  .picture-border2 {
+    background-color: transparent;
+    border: 1px solid black;
+    display: flex;
+    position: absolute;
+    left: 340px;
+    top: 970px;
+    height: 275px;
+    width: 190px;
+  }
+
+  #honey {
+    display: flex;
+    position: absolute;
+    left: 110px;
+    top: 1200px;
+    height: 170px;
+    width: 275px;
+    border-radius: 10%;
+  }
+  
+  #navoo {
+    display: flex;
+    position: absolute;
+    left: 70px;
+    top: 1500px;
+    height: 250px;
+    width: 170px;
+    border-radius: 10%;
+  }
+  
+  .picture-border3 {
+    background-color: transparent;
+    border: 1px solid black;
+    display: flex;
+    position: absolute;
+    left: 60px;
+    top: 1490px;
+    height: 270px;
+    width: 190px;
+    border-radius: 10%; 
+  }
+
+  #onoyo {
+    display: flex;
+    position: absolute;
+    left: 300px;
+    top: 1800px;
+    height: 250px;
+    width: 170px;
+  }
+
+  #pliFam {
+    display: flex;
+    position: absolute;
+    left: 80px;
+    top: 2180px;
+    height: 170px;
+    width: 275px;
+    z-index: 1;
+  }
+
+  .picture-border4 {
+    display: flex;
+    position: absolute;
+    left: 70px;
+    top: 2165px;
+    height: 195px;
+    width: 295px;
+    background-color: transparent;
+    border: 1px solid black;
+    z-index: 1;
+  }
+
+  #nat{
+  display: flex;
+  position: absolute;
+  left: 280px;
+  top: 2340px;
+  height: 250px;
+  width: 170px;
+}
 
 
   ul {
@@ -69,12 +161,13 @@ body {
 #logo {
     display: flex;
     position: fixed;
-    left: 38vw;
+    left:460px;
     top: 5px;
-    width: 300px;
-    height: 300px;
-    padding: 0%;
-    margin: 0%;
+    width: 275px;
+    height: 275px;
+    padding: 0px;
+    margin: 0px;
+    z-index: 1;
   }
   
 .headerButton{
@@ -85,7 +178,7 @@ body {
     color: black;
     font-size: 30px;
     font-family: Restora;
-    margin: 0%;
+    margin: 0px;
     display: flex;
     position: fixed;
   }
@@ -99,14 +192,14 @@ body {
     
  .navButtons {
   color: black;
-  margin: 0%;
+  margin: 0px;
   display: flex;
     position: fixed;
  } 
 
  .header {
   color: black;
-  margin: 0%;
+  margin: 0px;
   display: flex;
     position: fixed;
  }
@@ -117,14 +210,14 @@ body {
     right: 75px;
     top: 250px;
     color: black;
-    margin: 0%;
+    margin: 0px;
   }
 
   #meet:hover {
     font-weight:bold;
     top: 245px;
     color: black;
-    margin: 0%;
+    margin: 0px;
   }
 
 #portfolio {
@@ -132,13 +225,13 @@ body {
     position: fixed;
     right: 75px;
     top: 350px;
-    margin: 0%;
+    margin: 0px;
 }
 
 #portfolio:hover {
     font-weight:bold;
     top: 345px;
-    margin: 0%;
+    margin: 0px;
 }
 
 #schedule {
@@ -146,13 +239,13 @@ body {
     position: fixed;
     right: 75px;
     top: 450px;
-    margin: 0%;
+    margin: 0px;
 }
 
 #schedule:hover {
     font-weight:bold;
     top: 445px;
-    margin: 0%;
+    margin: 0px;
 }
 
 #dot {
@@ -165,7 +258,7 @@ body {
   right: 110px;
   top: 190px;
   border: 1px solid black;
-  margin: 0%;
+  margin: 0px;
 }
 
 #circle {
@@ -175,12 +268,13 @@ body {
   border-radius: 50%;
   display: flex;
   position: absolute;
-  left: 100px;
-  top: 895px;
+  left: 130px;
+  top: 850px;
   border: 1px solid black;
-  margin: 0%;
+  margin: 0px;
   z-index: 1;
 }
+
 
 
 .rectangle {
@@ -191,15 +285,16 @@ body {
   width: 200px;
   background-color: transparent;
   border: 1px solid rgb(90, 90, 90);
-  margin: 0%;
+  margin: 0px;
 }
+
 
 .text {
   display: flex;
   position: absolute;
-  left: 110px;
-  top: 400px;
-  width: 50pxpx;
+  left: 95px;
+  top: 415px;
+  width: 100px;
   color:rgb(251, 243, 233);
   z-index: 1;
   font-size: 10px;
@@ -210,11 +305,79 @@ body {
   transform: rotate(-90deg);
   display: flex;
   position: absolute;
-  left: 210px;
-  top: 550px;
-  width: 50pxpx;
+  left: 300px;
+  top: 675px;
+  width: 150px;
   color:rgb(251, 243, 233);
   z-index: 1;
   font-size: 10px;
   font-family:Restora ;
 }
+
+.creativeText {
+  display: flex;
+  position: absolute;
+  left: 100px;
+  top: 1125px;
+  width: 100px;
+  color:rgb(251, 243, 233);
+  z-index: 1;
+  font-size: 10px;
+  font-family:Restora ;
+}
+.flowText {
+  display: flex;
+  position: absolute;
+  left: 160px;
+  top: 1140px;
+  width: 100px;
+  color:rgb(251, 243, 233);
+  z-index: 1;
+  font-size: 10px;
+  font-family:Restora ;
+}
+
+#moments {
+  display: flex;
+  position: absolute;
+  left: 220px;
+  top: 2370px;
+  width: 100px;
+  color:rgb(251, 243, 233);
+  z-index: 1;
+  font-size: 10px;
+  font-family:Restora ;
+}
+
+.photoQuote {
+  display: flex;
+  position: absolute;
+  left: 270px;
+  width: 100px;
+  color:rgb(251, 243, 233);
+  z-index: 1;
+  font-size: 10px;
+  font-family:Restora ;
+}
+
+#photo {
+ top: 1720px;
+}
+
+#pause {
+  top: 1735px;
+}
+
+#life {
+  top: 1750px;
+}
+
+#arrow {
+  display: flex;
+  position: absolute;
+  left: 210px;
+  top: 1890px;
+  height: 130px;
+  width:100px;
+}
+

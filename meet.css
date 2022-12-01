@@ -8,13 +8,21 @@ body {
     background-color: rgb(251, 243, 233);
 }
 
+h1 {
+    background-color: rgb(214, 156, 140);
+    height: 75px;
+    width: 100vw;
+    margin: 0%;
+}
+
+
 .headerButton{
     height: 50px;
     width: 300px;
     border: none;
     background-color: transparent;
-    color: black;
-    font-size: 20px;
+    color:  rgb(251, 243, 233);;
+    font-size: 24px;
     font-family: Restora;
     margin: 0%;
     display: flex;
@@ -22,21 +30,19 @@ body {
   }
 
   a {
-    color: black;
+    color:  rgb(251, 243, 233);;
    text-decoration: none;
    display: flex;
     position: fixed;
   }
     
  .navButtons {
-  color: black;
   margin: 0%;
   display: flex;
     position: fixed;
  } 
 
  .header {
-  color: black;
   margin: 0%;
   display: flex;
     position: fixed;
@@ -46,15 +52,13 @@ body {
     display: flex;
     position: fixed;
     left: 75px;
-    top: 50px;
-    color: black;
+    top: 35px;
     margin: 0%;
   }
 
   #home:hover {
     font-weight:bold;
-    top: 45px;
-    color: black;
+    top: 30px;
     margin: 0%;
   }
 
@@ -62,45 +66,147 @@ body {
     display: flex;
     position: fixed;
     left: 200px;
-    top: 50px;
+    top: 35px;
     margin: 0%;
 }
 
 #portfolio:hover {
     font-weight:bold;
-    top: 45px;
+    top: 30px;
     margin: 0%;
 }
 
 #schedule {
     display: flex;
     position: fixed;
-    left: 375px;
-    top: 50px;
+    left: 400px;
+    top: 35px;
     margin: 0%;
 }
 
 #schedule:hover {
     font-weight:bold;
-    top: 45px;
+    top: 30px;
     margin: 0%;
 }
 
 #me {
     display: flex;
     position: absolute;
-    top: 200px;
-    left: 100px;
-    height: 450px;
-    width: 375px;
+    top: 150px;
+    left: 160px;
+    height: 350px;
+    width: 250px;
 }
 
-#line {
-    display: flex;
-    position: absolute;
-    top: 75px;
-    left: 5px;
-    width: 500px;
-    height: 1px;
-    border: 1px black;
+#camera {
+  display: flex;
+  position: absolute;
+  top: 500px;
+  right: 150px;
+  height: 350px;
+  width: 250px;
+  margin-bottom: 100px;
 }
+
+.borderBox2 {
+  display: flex;
+  position: absolute;
+  top: 490px;
+  right: 140px;
+  height: 370px;
+  width: 270px;
+  border: 1px solid black;
+}
+
+.borderBox {
+  background-color: transparent;
+  border: 1px solid black;
+  display: flex;
+  position: absolute;
+  left: 150px;
+  top: 140px;
+  width: 270px;
+  height: 370px;
+}
+
+hr.line {
+ border-top:1px solid black;
+}
+
+.line2 {
+  border-top: 1px solid black;
+  display: flex;
+  position: absolute;
+  width: 280px;
+  top: 345px;
+  right: 290px;
+}
+
+
+.name{
+  display: flex;
+  position: absolute;
+  right: 100px;
+  top: 200px;
+  font-size: 17px;
+  font-family: Restora;
+  font-weight: bold;
+  color:  black;
+}
+
+.hello {
+  display: flex;
+  position: absolute;
+  right: 100px;
+  top: 220px;
+  font-family: Restora;
+  font-size: 35px;
+  width: 400px;
+  text-align: center;
+  color: rgb(214, 156, 140);
+  font-weight: bold;
+}
+
+.about-me {
+  display: flex;
+  position: absolute;
+  left: 185px;
+  top: 560px;
+  font-size: 20px;
+  font-family: Restora;
+  font-weight: bold;
+  color:  black;
+}
+
+.about {
+  display: flex;
+  position: absolute;
+  left: 60px;
+  top: 600px;
+  width: 450px;
+  text-align: center;
+  font-size: 17px;
+  font-family: Restora;
+  font-weight: bold;
+  color:  black;
+}
+
+#complimentButton {
+  display: flex;
+  position: absolute;
+  right: 550px;
+  top: 800px;
+  height: 65px;
+  width: 200px;
+  font-family: Restora;
+  background-color: rgb(214, 156, 140);
+  border: 1px solid black;
+  cursor: pointer;
+  margin-bottom:200px ;
+}
+#complimentButton:hover {
+  opacity: .5;
+}
+
+

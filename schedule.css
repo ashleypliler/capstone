@@ -5,234 +5,425 @@
 
 body {
     margin: 0%;
-    background-color: rgb(253, 247, 241);
+    background-color:  rgb(123, 119, 116);
 }
 
-div.scroll {
-    background-color: rgb(123, 119, 116);
+
+
+
+h1 {
+    display: flex;
+    position: fixed;
+    background-color: rgb(214, 156, 140);
+    height: 75px;
+    width: 50vw;
+    margin: 0%;
+}
+.leftside {
+    background-color: rgb(253, 247, 241);
     width: 50vw;
     height: 100vh;
-    overflow-x: hidden;
-    overflow-y: auto;
-    text-align: center;
-    padding: 0%;
+    display: flex;
+    position: fixed;
+    left: 0px;
+    z-index: -2;
+  }
+  .line {
+    border-top: 1px solid black;
+    display: flex;
+    position: fixed;
+    width: 550px;
+    top: 80px;
+    left: 0px;
+  }
+  .line2 {
+    border-top: 1px solid black;
+    display: flex;
+    position: fixed;
+    width: 500px;
+    top: 90px;
+    left: 0px;
+    transition: 0.3s;
+  }
+  .line2:hover {
+    width: 550px;
+  }
+
+
+.headerButton{
+    height: 50px;
+    width: 200px;
+    border: none;
+    background-color: transparent;
+    color:  rgb(251, 243, 233);;
+    font-size: 24px;
+    font-family: Restora;
+    margin: 0%;
+    display: flex;
+    position: fixed;
+  }
+
+  a {
+    color: rgb(253, 247, 241);
+   text-decoration: none;
+   display: flex;
+    position: fixed;
+  }
+    
+ .navButtons {
+  margin: 0%;
+  display: flex;
+    position: fixed;
+ } 
+
+ .header {
+  margin: 0%;
+  display: flex;
+    position: fixed;
+ }
+
+#home {
+    display: flex;
+    position: fixed;
+    left: 50px;
+    top: 35px;
     margin: 0%;
   }
+
+  #home:hover {
+    font-weight:bold;
+    top: 30px;
+    margin: 0%;
+  }
+
+#portfolio {
+    display: flex;
+    position: fixed;
+    left: 190px;
+    top: 35px;
+    margin: 0%;
+}
+
+#portfolio:hover {
+    font-weight:bold;
+    top: 30px;
+    margin: 0%;
+}
+
+#meet {
+    display: flex;
+    position: fixed;
+    left: 385px;
+    top: 35px;
+    margin: 0%;
+}
+
+#meet:hover {
+    font-weight:bold;
+    top: 30px;
+    margin: 0%;
+}
+
 
 
     #email-id {
         display: flex;
-        position: absolute;
+        position: fixed;
         font-size: 20px;
-        right: 420px;
-        top: 315px;
+        left: 75px;
+        top: 375px;
         font-family: Restora;
     }
-
-    #date {
-        display: flex;
-        position: absolute;
-        font-size: 15px;
-        right: 345px;
-        top: 471px;
-    }
-
-    #date-id {
-        display: flex;
-        position: absolute;
-        font-size: 20px;
-        right: 425px;
-        top: 450px;
-    }
-
-    #name {
-        display: flex;
-        position: absolute;
-        font-family: Restora;
-        font-size: 15px;
-        right: 175px;
-        top: 130px;
-        width: 300PX;
-    }
-
-    #name-id {
-        display: flex;
-        position: absolute;
-        font-family: Restora;
-        font-size: 20px;
-        right: 182px;
-        top: 105px;
-        width: 300PX;
-    }
-
-    #last-name {
-        position: absolute;
-        width: 300px;
-        right: 175px;
-        top: 200px;
-        font-size: 15px;
-        font-family: Restora;
-    }
-
-    #name-last {
-        display: flex;
-        position: absolute;
-        width: 300px;
-        right: 185px;
-        top: 175px;
-        font-size: 20px;
-        font-family: Restora;
-    }
-
     #email {
         display: flex;
-        position: absolute;
+        position: fixed;
         width: 300px;
-        right: 175px;
-        top: 340px;
+        left: 75px;
+        top: 400px;
         font-size: 15px;
         font-family: Restora;
     }
-
+    
+    #name {
+        display: flex;
+        position: fixed;
+        font-family: Restora;
+        font-size: 15px;
+        left: 75px;
+        top: 160px;
+        width: 300PX;
+    }
+    
+    #name-id {
+        display: flex;
+        position: fixed;
+        font-family: Restora;
+        font-size: 20px;
+        left: 75px;
+        top: 135px;
+        width: 300PX;
+    }
+    
+    #last-name {
+        display: flex;
+        position: fixed;
+        width: 300px;
+        left: 75px;
+        top: 240px;
+        font-size: 15px;
+        font-family: Restora;
+    }
+    
+    #name-last {
+        display: flex;
+        position: fixed;
+        width: 300px;
+        left: 75px;
+        top: 215px;
+        font-size: 20px;
+        font-family: Restora;
+    }
+    
+    
     #phonenumber {
         display: flex;
-        position: absolute;
+        position: fixed;
         width: 300px;
-        right: 185px;
-        top: 245px;
+        left: 75px;
+        top: 295px;
         font-size: 20px;
         font-family: Restora;
     }
     #number {
         display: flex;
-        position: absolute;
+        position: fixed;
         width: 300px;
-        right: 175px;
-        top:270px;
+        left: 75px;
+        top:320px;
         font-size: 15px;
         font-family: Restora;
     }
     #session-id {
         display: flex;
-        position: absolute;
-        right: 347px;
-        top: 385px;
+        position: fixed;
+        left: 75px;
+        top: 460px;
         font-size: 20px;
         font-family: Restora;
     }
     #session {
         display: flex;
-        position: absolute;
-        right: 295px;
-        top: 410px;
+        position: fixed;
+        left: 75px;
+        top: 485px;
         font-size: 15px;
         font-family: Restora;
     }
-
-    #submit {
-        display: flex;
-        position: absolute;
-        height: 100px;
-        width: 200px;
-        right: 150px;
-        top: 545px;
-        font-size: 17px;
-        font-family: Restora;
-  padding: 0.875em 2em;
-  background: linear-gradient(90deg, #3f51b5, transparent) #2196f3;
-  color: #fff;
-  text-decoration: none;
-  transition: background-color 1s;
-  place-content: center;
-    }
-
-    #submit:hover, submit:focus {
-        /* background-color: gray; */
-        background-color: #e91e63;
-        color: #fff;
-    }
-
-
-
-    #header {
-        display: flex;
-        position: absolute;
-        right: 150px;
-        top: 40px;
-        font-size: 40px;
-        font-family:Restora;
-    }
+        #date {
+            display: flex;
+            position: fixed;
+            font-size: 15px;
+            left: 75px;
+            top: 560px;
+        }
+        
+        #date-id {
+            display: flex;
+            position: fixed;
+            font-size: 20px;
+            left: 75px;
+            top: 540px;
+        }
 
     #time-id {
         display: flex;
-        position: absolute;
-        right: 430px;
-        bottom: 160px;
+        position: fixed;
+        left: 75px;
+        top: 605px;
         font-size: 20px;
         font-family: Restora;
     }
-
+    
     #time {
         display: flex;
-        position: absolute;
-        right: 375px;
-        bottom: 125px;
+        position: fixed;
+        left: 75px;
+        top: 630px;
         font-size: 15px;
         font-family: Restora;
     }
+    #submit {
+        display: flex;
+        position: fixed;
+        height: 40px;
+        width: 100px;
+        left: 400px;
+        top: 620px;
+        font-size: 20px;
+        font-family: Restora;
+        text-align: center;
+        border: transparent;
+        background: linear-gradient(90deg, rgb(214, 156, 140), transparent)rgb(253, 247, 241);;
+        color: black;
+        text-decoration: none;
+        transition: background-color 1s;
+        place-content: center;
+      }
+
+    #submit:hover, submit:focus {
+        background-color:  rgb(214, 156, 140);
+    }
 
 
-
-/* Dropdown Button */
-.dropbtn {
-    background-color: transparent;
-    color: rgb(251, 243, 233);
-    font-family: Restora;
-    padding: 16px;
-    font-size: 50px;
-    border: none;
-    border-radius: 30%;
-    cursor: pointer;
+  #farrow {
     display: flex;
-    position: fixed;
-
-  }
-  
-  /* Dropdown button on hover & focus */
-  .dropbtn:hover, .dropbtn:focus {
-    background-color: rgb(181, 175, 171);
-  }
-  
-  /* The container <div> - needed to position the dropdown content */
-  .dropdown {
-    position: relative;
-    display: inline-block;
-  }
-  
-  /* Dropdown Content (Hidden by Default) */
-  .dropdown-content {
-    display: none;
     position: absolute;
-    background-color: #f1f1f1;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    right: 0px;
+    top: 100px;
+    width: 200px;
+    height: 300px;
+  }
+  .picture-border1 {
+    background-color: transparent;
+    border: 1px solid black;
+    display: flex;
+    position: absolute;
+    right: 0px;
+    top: 90px;
+    width: 210px;
+    height: 320px;
+  }
+  #glitzz {
+    display: flex;
+    position: absolute;
+    right: 175px;
+    top: 350px;
+    height: 150px;
+    width: 250px;
+    border-radius: 10%;
+  }
+
+  #NY {
+    display: flex;
+    position: absolute;
+    right: 175px;
+    top: 600px;
+    height: 275px;
+    width: 185px;
+  }
+
+  #baileyFam {
+    display: flex;
+    position: absolute;
+    right: 350px;
+    top: 985px;
+    height: 250px;
+    width: 170px;
+  }
+  .picture-border2 {
+    background-color: transparent;
+    border: 1px solid black;
+    display: flex;
+    position: absolute;
+    right: 340px;
+    top: 970px;
+    height: 275px;
+    width: 190px;
+  }
+
+  #glitzzArms {
+    display: flex;
+    position: absolute;
+    right: 110px;
+    top: 1200px;
+    height: 170px;
+    width: 275px;
+    border-radius: 10%;
     z-index: 1;
   }
-  
-  /* Links inside the dropdown */
-  .dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    font-size: 30px;
-    height: 50px;
-    width: 100vw;
-    transition: 2s;
+
+  #lennon {
+    display: flex;
+    position: absolute;
+    right: 70px;
+    top: 1500px;
+    height: 250px;
+    width: 170px;
+    border-radius: 10%;
   }
-  
-  /* Change color of dropdown links on hover */
-  .dropdown-content a:hover {background-color: #ddd;}
-  
-  /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
-  .show {display:block;}
+
+  .picture-border3 {
+    background-color: transparent;
+    border: 1px solid black;
+    display: flex;
+    position: absolute;
+    right: 60px;
+    top: 1490px;
+    height: 270px;
+    width: 190px;
+    border-radius: 10%; 
+  }
+
+  #parents {
+    display: flex;
+    position: absolute;
+    right: 300px;
+    top: 1800px;
+    height: 250px;
+    width: 170px;
+  }
+
+  #onoyoSign {
+    display: flex;
+    position: absolute;
+    right: 80px;
+    top: 2180px;
+    height: 170px;
+    width: 275px;
+    z-index: 1;
+  }
+
+  .picture-border4 {
+    display: flex;
+    position: absolute;
+    right: 70px;
+    top: 2165px;
+    height: 195px;
+    width: 295px;
+    background-color: transparent;
+    border: 1px solid black;
+    z-index: 1;
+  }
+
+  #circle {
+    height: 100px;
+    width: 100px;
+    background-color: transparent;
+    border-radius: 50%;
+    display: flex;
+    position: absolute;
+    right: 130px;
+    top: 830px;
+    border: 1px solid black;
+    margin: 0px;
+    z-index: 1;
+  }
+
+
+  #danny{
+    display: flex;
+    position: absolute;
+    right: 280px;
+    top: 2340px;
+    height: 250px;
+    width: 170px;
+  }
+
+  #arrow {
+    display: flex;
+    position: absolute;
+    right: 210px;
+    top: 1890px;
+    height: 130px;
+    width:100px;
+  }
