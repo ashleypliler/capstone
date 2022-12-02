@@ -8,7 +8,6 @@ document.getElementById('close').onclick = function() {
 };
 
 
-
 let modal2 = document.getElementById("modal-product");
 let shade2 = document.getElementById('shade-product');
 document.getElementById('start-product').onclick = function() {
@@ -48,17 +47,6 @@ document.getElementById('close-land').onclick = function() {
   modal5.style.display = shade5.style.display = 'none';
 };
 
-const complimentBtn = document.getElementById("complimentButton")
-
-const getCompliment = () => {
-    axios.get("http://localhost:4000/api/compliment/")
-        .then(res => {
-            const data = res.data;
-            alert(data);
-    });
-};
-
-complimentBtn.addEventListener('click', getCompliment)
 
 
 

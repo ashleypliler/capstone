@@ -1,3 +1,5 @@
+
+
 const contactForm = document.querySelector('.session');
 
 let firstName = document.getElementById('first-name');
@@ -21,24 +23,8 @@ contactForm.addEventListener('submit', (e) => {
         time: time.value
     }
 
-    let xhr = new XMLHttpRequest();
-    xhr.open('POST', '/');
-    xhr.setRequestHeader('content-type', 'application/json');
-    xhr.onload = function() {
-        console.log(xhr.responseText)
-        if(xhr.responseText == 'success'){
-            alert('Email sent');
-            firstName.value = '';
-            lastName.value = '';
-            email.value = '';
-            number.value = '';
-            session.value = '';
-            date.value = '';
-            time.value = '';
-        } else {
-            alert('something went wrong')
-        }
-    }
+    axios.post('http://localhost:4000/email', formData).then((res) => {
+        console.log(res.data)
+    })
 
-    xhr.send(JSON.stringify(formData))
 })

@@ -4,10 +4,9 @@
 }
 
 
-
 body {
     margin: 0%;
-    background-color:#b8a289;
+    background-color: rgb(253, 247, 241);
 }
 
 .rightside {
@@ -207,15 +206,15 @@ body {
 #meet {
     display: flex;
     position: fixed;
-    right: 75px;
-    top: 250px;
+    right: 100px;
+    top: 280px;
     color: black;
     margin: 0px;
   }
 
   #meet:hover {
     font-weight:bold;
-    top: 245px;
+    top: 275px;
     color: black;
     margin: 0px;
   }
@@ -223,28 +222,28 @@ body {
 #portfolio {
     display: flex;
     position: fixed;
-    right: 75px;
-    top: 350px;
+    right: 100px;
+    top: 375px;
     margin: 0px;
 }
 
 #portfolio:hover {
     font-weight:bold;
-    top: 345px;
+    top: 370px;
     margin: 0px;
 }
 
 #schedule {
     display: flex;
     position: fixed;
-    right: 75px;
-    top: 450px;
+    right: 100px;
+    top: 475px;
     margin: 0px;
 }
 
 #schedule:hover {
     font-weight:bold;
-    top: 445px;
+    top: 470px;
     margin: 0px;
 }
 
@@ -295,7 +294,7 @@ body {
   left: 95px;
   top: 415px;
   width: 100px;
-  color:rgb(251, 243, 233);
+  color:black;
   z-index: 1;
   font-size: 10px;
   font-family:Restora ;
@@ -308,7 +307,7 @@ body {
   left: 300px;
   top: 675px;
   width: 150px;
-  color:rgb(251, 243, 233);
+  color:black;
   z-index: 1;
   font-size: 10px;
   font-family:Restora ;
@@ -320,7 +319,7 @@ body {
   left: 100px;
   top: 1125px;
   width: 100px;
-  color:rgb(251, 243, 233);
+  color:black;
   z-index: 1;
   font-size: 10px;
   font-family:Restora ;
@@ -331,7 +330,7 @@ body {
   left: 160px;
   top: 1140px;
   width: 100px;
-  color:rgb(251, 243, 233);
+  color:black;
   z-index: 1;
   font-size: 10px;
   font-family:Restora ;
@@ -343,7 +342,7 @@ body {
   left: 220px;
   top: 2370px;
   width: 100px;
-  color:rgb(251, 243, 233);
+  color:black;
   z-index: 1;
   font-size: 10px;
   font-family:Restora ;
@@ -354,7 +353,7 @@ body {
   position: absolute;
   left: 270px;
   width: 100px;
-  color:rgb(251, 243, 233);
+  color:black;
   z-index: 1;
   font-size: 10px;
   font-family:Restora ;

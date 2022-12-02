@@ -9,7 +9,7 @@ body {
 }
 
 h1 {
-    background-color: rgb(209, 167, 156);
+    background-color: rgb(130, 104, 80);
     height: 75px;
     width: 100vw;
     margin: 0%;
@@ -164,7 +164,7 @@ hr.line {
   font-size: 35px;
   width: 400px;
   text-align: center;
-  color: rgb(214, 156, 140);
+  color: rgb(130, 104, 80);
   font-weight: bold;
 }
 

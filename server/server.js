@@ -1,36 +1,33 @@
 const express = require('express');
-const cors = require("cors");
 const nodemailer = require('nodemailer');
+const cors = require('cors');
 
 const app = express();
 
-app.use(cors());
 app.use(express.json())
-// app.use(express.static('schedule-session'))
+app.use(cors());
+
 
 const {getCompliment} = require('./controller');
 
 app.get("/api/compliment", getCompliment);
-app.get('/', (req, res) => {
-    res.sendFile(__dirname + '/schedule-session/schedule.html')
-})
 
-app.post("/", (req, res) => {
+app.post("/email", (req, res) => {
     console.log(req.body);
-
+    const {  firstname, lastname, email, number, session, date, time } = req.body
     const transporter = nodemailer.createTransport({
         service: 'gmail',
         auth: {
             user: 'ashleyallysephoto@gmail.com',
-            pass: ''
+            pass: 'serquozxjeodtwbr'
         }
     })
 
     const mailOptions = {
-        from: req.body.email,
+        from: email,
         to: 'ashleyallysephoto@gmail.com',
-        subject: `New photo session for ${req.body.firstName}`,
-        text: req.body.firstName
+        subject: `New photo session for ${firstname}`,
+        text: `${firstname}, ${lastname}, ${email}, ${number}, ${session}, ${date}, ${time}`
     }
 
     transporter.sendMail(mailOptions, (error, info) => {
@@ -46,6 +43,6 @@ app.post("/", (req, res) => {
 
 
 
-app.listen(5500, () => {
-    console.log('Server running on port 5500');
+app.listen(4000, () => {
+    console.log('Server running on port 4000');
 })
