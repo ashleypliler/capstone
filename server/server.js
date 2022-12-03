@@ -27,7 +27,14 @@ app.post("/email", (req, res) => {
         from: email,
         to: 'ashleyallysephoto@gmail.com',
         subject: `New photo session for ${firstname}`,
-        text: `${firstname}, ${lastname}, ${email}, ${number}, ${session}, ${date}, ${time}`
+        text: `     
+            First Name: ${firstname}
+            Last Name: ${lastname}
+            Email: ${email}
+            Phone Number: ${number}
+            Session Type: ${session}
+            Date: ${date}
+            Time: ${time}`
     }
 
     transporter.sendMail(mailOptions, (error, info) => {
