@@ -9,8 +9,8 @@ body {
 }
 
 h1 {
-    background-color: rgb(130, 104, 80);
-    height: 75px;
+  background-color: rgb(155, 124, 96);   
+   height: 75px;
     width: 100vw;
     margin: 0%;
 }
@@ -30,7 +30,7 @@ h1 {
   }
 
   a {
-    color:  rgb(251, 243, 233);;
+    color:  rgb(251, 243, 233);
    text-decoration: none;
    display: flex;
     position: fixed;
@@ -97,6 +97,7 @@ h1 {
     left: 160px;
     height: 350px;
     width: 250px;
+    border-radius: 150px 150px 0 0;
 }
 
 #camera {
@@ -128,6 +129,7 @@ h1 {
   top: 140px;
   width: 270px;
   height: 370px;
+  border-radius: 150px 150px 0 0;
 }
 
 hr.line {
@@ -164,15 +166,24 @@ hr.line {
   font-size: 35px;
   width: 400px;
   text-align: center;
-  color: rgb(130, 104, 80);
+  color: rgb(155, 124, 96);
   font-weight: bold;
+}
+
+#orangeRays {
+  display: flex;
+  position: absolute;
+  right: 60px;
+  top: 810px;
+  width: 125px;
+  height: 125px;
 }
 
 .about-me {
   display: flex;
   position: absolute;
   left: 185px;
-  top: 560px;
+  top: 580px;
   font-size: 20px;
   font-family: Restora;
   font-weight: bold;
@@ -183,7 +194,7 @@ hr.line {
   display: flex;
   position: absolute;
   left: 60px;
-  top: 600px;
+  top: 620px;
   width: 450px;
   text-align: center;
   font-size: 17px;
@@ -195,16 +206,19 @@ hr.line {
 #complimentButton {
   display: flex;
   position: absolute;
-  right: 550px;
-  top: 800px;
-  height: 65px;
+  right: 470px;
+  top: 500px;
+  height: 60px;
   width: 200px;
   font-family: Restora;
-  background-color: rgb(214, 178, 140);
+  font-size: 13px;
+  color: rgb(251, 243, 233); ;
+  background-color:  rgb(222, 170, 138);
   border: 1px solid black;
   cursor: pointer;
-  margin-bottom:200px ;
+  border: none;
 }
+
 #complimentButton:hover {
   opacity: .5;
 }

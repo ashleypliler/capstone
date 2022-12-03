@@ -24,6 +24,7 @@ contactForm.addEventListener('submit', (e) => {
     }
 
     axios.post('http://localhost:4000/email', formData).then((res) => {
+        alert('Your session has been scheduled! Excited to capture some memories with you!:)')
         console.log(res.data)
     })
 

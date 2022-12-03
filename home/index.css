@@ -7,9 +7,9 @@
 body {
     margin: 0%;
     background-color: rgb(253, 247, 241);
-}
-
-.rightside {
+  }
+  
+  .rightside {
   background-color: rgb(253, 247, 241);
   width: 50vw;
   height: 100vh;
@@ -45,7 +45,8 @@ body {
     left: 175px;
     top: 600px;
     height: 275px;
-    width: 185px;
+    width: 185px;   
+    border-radius: 100px 100px 0 0;
   }
 
   #plant {
@@ -117,6 +118,7 @@ body {
     top: 1800px;
     height: 250px;
     width: 170px;
+    border-radius: 100px 100px 0 0;
   }
 
   #pliFam {
@@ -160,12 +162,12 @@ body {
 #logo {
     display: flex;
     position: fixed;
-    left:460px;
-    top: 5px;
-    width: 275px;
-    height: 275px;
+    left:480px;
+    top: 5%;
+    width: 200px;
+    height: 200px;
     padding: 0px;
-    margin: 0px;
+    margin: 0%;
     z-index: 1;
   }
   
@@ -247,18 +249,9 @@ body {
     margin: 0px;
 }
 
-#dot {
-  height: 100px;
-  width: 100px;
-  background-color: transparent;
-  border-radius: 50%;
-  display: flex;
-  position: fixed;
-  right: 110px;
-  top: 190px;
-  border: 1px solid black;
-  margin: 0px;
-}
+
+
+
 
 #circle {
   height: 100px;
@@ -276,16 +269,6 @@ body {
 
 
 
-.rectangle {
-  display: flex;
-  position: fixed;
-  top: 550px;
-  right: 353px;
-  width: 200px;
-  background-color: transparent;
-  border: 1px solid rgb(90, 90, 90);
-  margin: 0px;
-}
 
 
 .text {
@@ -378,5 +361,36 @@ body {
   top: 1890px;
   height: 130px;
   width:100px;
+}
+
+#insta{
+  display: flex;
+  position: fixed;
+  right: 15px;
+  top: 635px;
+  height: 65px;
+  width:65px;
+}
+
+.contact-email {
+  display: flex;
+  position: fixed;
+  right: 255px;
+  top: 655px;
+  height: 65px;
+  width:60px;
+  font-family: Restora;
+  font-size: 16px;
+  color:black;
+}
+
+#colors {
+  height: 350px;
+  width: 350px;
+  display: flex;
+  position: fixed;
+  right:0px;
+  bottom:0px;
+  z-index: -1;
 }
 

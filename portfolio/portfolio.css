@@ -9,10 +9,23 @@ body {
 }
 
 h1 {
-    background-color: rgb(130, 104, 80);
-    height: 100px;
+    background-color: rgb(155, 124, 96);
+    height: 65px;
     width: 100vw;
     margin: 0%;
+}
+
+h2 {
+background-color:rgb(223, 173, 122);
+width: 100vw;
+height: 15px;
+margin: 0%;
+}
+h3 {
+background-color: rgb(252, 209, 181);
+width: 100vw;
+height: 10px;
+margin: 0%;
 }
 
 .headerButton{
@@ -51,13 +64,13 @@ h1 {
     display: flex;
     position: absolute;
     left: 75px;
-    top: 35px;
+    top: 25px;
     margin: 0%;
   }
 
   #home:hover {
     font-weight:bold;
-    top: 30px;
+    top: 20px;
     margin: 0%;
   }
 
@@ -65,13 +78,13 @@ h1 {
     display: flex;
     position: absolute;
     left: 200px;
-    top: 35px;
+    top: 25px;
     margin: 0%;
 }
 
 #meet:hover {
     font-weight:bold;
-    top: 30px;
+    top: 20px;
     margin: 0%;
 }
 
@@ -79,67 +92,70 @@ h1 {
     display: flex;
     position: absolute;
     left: 410px;
-    top: 35px;
+    top: 25px;
     margin: 0%;
 }
 
 #schedule:hover {
     font-weight:bold;
-    top: 30px;
+    top: 20px;
     margin: 0%;
 }
 
 #product {
     display: flex;
     position: absolute;
-    left: 75px;
-    top: 200px;
+    left: 115px;
+    top: 180px;
     height: 400px;
     width: 275px;
     opacity: 1;
     cursor: pointer;
+
 }
 
 #portrait {
     display: flex;
     position: absolute;
-    left: 400px;
-    top: 200px;
+    left: 440px;
+    top: 180px;
     height: 400px;
     width: 275px;
     opacity: 1;
     cursor: pointer;
+  
+    
 }
 
 .headers {
     display: flex;
     position: absolute;
-    top: 170px;
+    top: 140px;
     font-family: Restora;
-    font-size: 17px;
+    font-size: 20px;
     z-index: 1;
 }
 
 #port {
-    left: 490px;
+    right: 520px;
 }
 
 #prod {
-    left: 165px;
+    left: 210px;
 }
 
 #fam {
-    right: 250px;
+    right: 220px;
 }
 
 #coup {
     top: 620px;
-    left: 165px;
+    left: 370px;
 }
 
 #landScape {
     top: 620px;
-    left: 490px;
+    right: 360px;
 }
 
 
@@ -147,34 +163,37 @@ h1 {
 #family {
     display: flex;
     position: absolute;
-    right: 150px;
-    top: 200px;
+    right: 110px;
+    top: 180px;
     height: 400px;
     width: 275px;
     opacity: 1;
     cursor: pointer;
+ 
 }
 
 #couple {
     display: flex;
     position: absolute;
-    left: 75px;
+    left: 270px;
     top: 650px;
     height: 400px;
     width: 275px;
     opacity: 1;
     cursor: pointer;
+
 }
 
 #landscape {
     display: flex;
     position: absolute;
-    left: 400px;
+    right: 280px;
     top: 650px;
     height: 400px;
     width: 275px;
     opacity: 1;
     cursor: pointer;
+
 }
 
 #shade, #modal {
@@ -239,28 +258,28 @@ h1 {
 #modal {
   position: absolute;
   z-index: 101;
-  top: 33%;
+  top: 50%;
   left: 20px;
   width: 100%;
 }
 #modal-family {
   position: absolute;
   z-index: 101;
-  top: 33%;
+  top: 10%;
   left: 20px;
   width: 100%;
 }
 #modal-product {
   position: absolute;
   z-index: 101;
-  top: 33%;
+  top: 10%;
   left: 20px;
   width: 100%;
 }
 #modal-portrait {
   position: absolute;
   z-index: 101;
-  top: 33%;
+  top: 10%;
   left: 20px;
   width: 100%;
 }
@@ -268,7 +287,7 @@ h1 {
 #modal-land {
   position: absolute;
   z-index: 101;
-  top: 33%;
+  top: 50%;
   left: 20px;
   width: 100%;
 }
@@ -398,7 +417,7 @@ h1 {
 #start {
     display: flex;
     position: absolute;
-    left: 75px;
+    left: 270px;
     top: 650px;
     height: 400px;
     width: 275px;
@@ -409,8 +428,8 @@ h1 {
 #start-family {
     display: flex;
     position: absolute;
-    right: 150px;
-    top: 200px;
+    right: 110px;
+    top: 180px;
     height: 400px;
     width: 275px;
     opacity: 0;
@@ -420,8 +439,8 @@ h1 {
 #start-product {
     display: flex;
     position: absolute;
-    left: 75px;
-    top: 200px;
+    left: 115px;
+    top: 180px;
     height: 400px;
     width: 275px;
     opacity: 0;
@@ -431,8 +450,8 @@ h1 {
 #start-portrait {
     display: flex;
     position: absolute;
-    left: 400px;
-    top: 200px;
+    left: 440px;
+    top: 180px;
     height: 400px;
     width: 275px;
     opacity: 0;
@@ -442,7 +461,7 @@ h1 {
 #start-land {
     display: flex;
     position: absolute;
-    left: 400px;
+    right: 280px;
     top: 650px;
     height: 400px;
     width: 275px;
