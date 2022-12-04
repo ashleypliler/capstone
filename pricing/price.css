@@ -1,0 +1,402 @@
+@font-face {
+    font-family:Restora;
+    src: url(../RestoraExtraLight.otf)
+}
+
+
+body {
+    margin: 0%;
+    background-color: rgb(253, 247, 241);
+  }
+  
+ 
+
+h1 {
+    display: flex;
+    position: fixed;
+    background-color: rgb(155, 124, 96);    height: 75px;
+    width: 100vw;
+    margin: 0%;
+    z-index: 2;
+}
+  
+
+
+.headerButton{
+    height: 50px;
+    width: 200px;
+    border: none;
+    background-color: transparent;
+    color:  rgb(251, 243, 233);;
+    font-size: 24px;
+    font-family: Restora;
+    margin: 0%;
+    display: flex;
+    position: fixed;
+  }
+
+  a {
+    color: rgb(253, 247, 241);
+    text-decoration: none;
+    display: flex;
+    position: fixed;
+  }
+    
+ .navButtons {
+  margin: 0%;
+  display: flex;
+  position: fixed;
+ } 
+
+ .header {
+  margin: 0%;
+  display: flex;
+  position: fixed;
+   
+ }
+
+#home {
+    display: flex;
+    position: fixed;
+    left: 50px;
+    top: 25px;
+    margin: 0%;
+  }
+
+  #home:hover {
+    font-weight:bold;
+    top: 20px;
+    margin: 0%;
+  }
+
+#portfolio {
+    display: flex;
+    position: fixed;
+    left: 190px;
+    top: 25px;
+    margin: 0%;
+}
+
+#portfolio:hover {
+    font-weight:bold;
+    top: 20px;
+    margin: 0%;
+}
+
+#meet {
+    display: flex;
+    position: fixed;
+    left: 385px;
+    top: 25px;
+    margin: 0%;
+}
+
+#meet:hover {
+    font-weight:bold;
+    top: 20px;
+    margin: 0%;
+}
+#schedule {
+    display: flex;
+    position: fixed;
+    left: 600px;
+    top: 25px;
+    margin: 0%;
+}
+
+#schedule:hover {
+    font-weight:bold;
+    top: 20px;
+    margin: 0%;
+}
+
+.portDiv {
+    font-size: 40px;
+    font-family: Restora;
+    display: flex;
+    position: absolute;
+    top:120px;
+    left: 0px;
+    color: rgb(251, 243, 233);
+    background-color: rgb(223, 173, 122);
+    height: 400px;
+    width: 70%;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+
+.portOption1 {
+    font-weight: bold;
+    display: inline-block;
+    position: absolute;
+    top: 80px;
+    left: 0px;
+    font-size: 17px;
+    list-style-type: circle;
+}
+.portOption2 {
+    font-weight: bold;
+    display: inline-block;
+    position: absolute;
+    top: 250px;
+    left: 200px;
+    font-size: 17px;
+    list-style-type: circle;
+}
+
+.portOption3 {
+    font-weight: bold;
+    display: inline-block;
+    position: absolute;
+    top: 115px;
+    left: 530px;
+    font-size: 17px;
+    list-style-type: circle;
+}
+
+.pic {
+    display: flex;
+    position: absolute;
+    height: 200px;
+    width: 125px;
+}
+
+#tiffVid {
+    display: flex;
+    position: absolute;
+    right: 20px;
+    top: 125px;
+    height: 400px;
+    width: 275px;
+}
+
+#famVid {
+    display: flex;
+    position: absolute;
+    right: 140px;
+    top: 1045px;
+    height: 400px;
+    width: 275px;
+}
+#coupVid {
+    display: flex;
+    position: absolute;
+    left: 140px;
+    top: 585px;
+    height: 400px;
+    width: 275px;
+}
+#prodVid {
+    display: flex;
+    position: absolute;
+    left: 255px;
+    top: 1515px;
+    height: 400px;
+    width: 275px;
+}
+
+
+.bullet {
+    top: 250px;
+    left: 10px;
+    font-size: 14px;
+}
+
+.coupDiv {
+    font-size: 40px;
+    font-family: Restora;
+    display: flex;
+    position: absolute;
+    top:580px;
+    right: 0px;
+    color:rgb(155, 124, 96);
+    background-color:  rgb(252, 209, 181);
+    height: 400px;
+    width: 60%;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+
+.coupDiv2 {
+    display: flex;
+    position: absolute;
+    top:580px;
+    left: 0px; 
+    height: 400px;
+    width: 10%;
+    background-color:  rgb(252, 209, 181);
+}
+
+#coup {
+    display: flex;
+    position: absolute;
+    right: 50px;
+}
+
+.coupOption1 {
+    font-weight: bold;
+    display: inline-block;
+    position: absolute;
+    top: 115px;
+    right: 350px;
+    font-size: 17px;
+    list-style-type: circle;
+}
+.coupOption2 {
+    font-weight: bold;
+    display: inline-block;
+    position: absolute;
+    top: 115px;
+    right: 50px;
+    font-size: 17px;
+    list-style-type: circle;
+}
+
+
+.famDiv {
+    font-size: 40px;
+    font-family: Restora;
+    display: flex;
+    position: absolute;
+    top:1040px;
+    left: 0px;
+    color:rgb(223, 173, 122);
+    background-color: rgb(155, 124, 96);
+    height: 400px;
+    width: 60%;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+
+.famDiv2 {
+    display: flex;
+    position: absolute;
+    top:1040px;
+    right: 0px;
+    height: 400px;
+    width: 10%;
+    background-color: rgb(155, 124, 96);
+}
+
+.famOption1 {
+    font-weight: bold;
+    display: inline-block;
+    position: absolute;
+    top: 100px;
+    left: 10px;
+    font-size: 17px;
+    list-style-type: circle;
+}
+
+.famOption2 {
+    font-weight: bold;
+    display: inline-block;
+    position: absolute;
+    top: 215px;
+    left: 350px;
+    font-size: 17px;
+    list-style-type: circle;
+}
+
+.prodDiv {
+    font-size: 40px;
+    font-family: Restora;
+    display: flex;
+    position: absolute;
+    top:1505px;
+    right: 0px;
+    color:rgb(251, 243, 233);
+    background-color: rgb(223, 173, 122);
+    height: 400px;
+    width: 50%;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+
+.prodDiv2 {
+    display: flex;
+    position: absolute;
+    top:1505px;
+    left: 0px;
+    height: 400px;
+    width: 19.5%;
+    background-color: rgb(223, 173, 122);
+}
+
+#prod {
+    display: flex;
+    position: absolute;
+    right: 50px;
+}
+
+.prodOption1 {
+    font-weight: bold;
+    display: inline-block;
+    position: absolute;
+    top: 115px;
+    right: 50px;
+    width: 400px;
+    font-size: 17px;
+    list-style-type: circle;
+}
+.prodOption2 {
+    font-weight: bold;
+    display: inline-block;
+    position: absolute;
+    top: 190px;
+    right: 50px;
+    width: 400px;
+    font-size: 17px;
+    list-style-type: circle;
+}
+.prodOption3 {
+    font-weight: bold;
+    display: inline-block;
+    position: absolute;
+    top: 290px;
+    right: 50px;
+    width: 400px;
+    font-size: 17px;
+    list-style-type: circle;
+}
+
+.line {
+    background-color: transparent;
+    display: flex;
+    position: absolute;
+    z-index: 1;
+}
+
+#one{
+    border-top: 1px solid rgb(251, 243, 233);
+    left: 20px;
+    top: 190px;
+    width: 600px;
+}
+
+#two {
+    display: flex;
+    position: absolute;
+    border-top: 1px solid rgb(155, 124, 96);
+    left: 620px;
+    top: 650px;
+    width: 600px;
+}
+
+#three {
+    display: flex;
+    position: absolute;
+    border-top: 1px solid rgb(223, 173, 122);
+    left: 20px;
+    top: 1110px;
+    width: 600px;
+}
+
+#four {
+    display: flex;
+    position: absolute;
+    border-top: 1px solid rgb(251, 243, 233);
+    left: 640px;
+    top: 1575px;
+    width: 600px;
+}

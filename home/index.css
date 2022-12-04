@@ -208,7 +208,7 @@ body {
 #meet {
     display: flex;
     position: fixed;
-    right: 100px;
+    right: 120px;
     top: 280px;
     color: black;
     margin: 0px;
@@ -224,28 +224,41 @@ body {
 #portfolio {
     display: flex;
     position: fixed;
-    right: 100px;
-    top: 375px;
+    right: 120px;
+    top: 370px;
     margin: 0px;
 }
 
 #portfolio:hover {
     font-weight:bold;
-    top: 370px;
+    top:365px;
     margin: 0px;
 }
 
 #schedule {
     display: flex;
     position: fixed;
-    right: 100px;
-    top: 475px;
+    right: 120px;
+    top: 460px;
     margin: 0px;
 }
 
 #schedule:hover {
     font-weight:bold;
-    top: 470px;
+    top: 455px;
+    margin: 0px;
+}
+#price {
+    display: flex;
+    position: fixed;
+    right: 120px;
+    top: 555px;
+    margin: 0px;
+}
+
+#price:hover {
+    font-weight:bold;
+    top: 550px;
     margin: 0px;
 }
 

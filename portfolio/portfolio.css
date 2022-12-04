@@ -102,6 +102,22 @@ margin: 0%;
     margin: 0%;
 }
 
+#price{
+    display: flex;
+    position: absolute;
+    left: 685px;
+    top: 25px;
+    margin: 0%;
+}
+
+#price:hover {
+    font-weight:bold;
+    top: 20px;
+    margin: 0%;
+}
+
+
+
 #product {
     display: flex;
     position: absolute;
