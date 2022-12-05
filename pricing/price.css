@@ -173,7 +173,7 @@ h1 {
 #famVid {
     display: flex;
     position: absolute;
-    right: 140px;
+    right: 135px;
     top: 1045px;
     height: 400px;
     width: 275px;
@@ -181,7 +181,7 @@ h1 {
 #coupVid {
     display: flex;
     position: absolute;
-    left: 140px;
+    left: 135px;
     top: 585px;
     height: 400px;
     width: 275px;
@@ -189,7 +189,7 @@ h1 {
 #prodVid {
     display: flex;
     position: absolute;
-    left: 255px;
+    left: 245px;
     top: 1515px;
     height: 400px;
     width: 275px;
